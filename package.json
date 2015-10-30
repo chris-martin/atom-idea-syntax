@@ -1,10 +1,10 @@
 {
-  "name": "template-syntax",
+  "name": "atom-idea-syntax",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "0.0.0",
   "private": false,
-  "description": "A template syntax theme to build from",
-  "repository": "https://github.com/atom/template-syntax",
+  "description": "An Atom syntax theme based on the IntelliJ IDEA default theme",
+  "repository": "https://github.com/chris-martin/atom-idea-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
