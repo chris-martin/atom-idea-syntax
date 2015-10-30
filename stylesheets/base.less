@@ -58,7 +58,7 @@
 }
 
 .comment {
-  color: @light-gray;
+  color: #808080; /* idea: DEFAULT_LINE_COMMENT */
 }
 
 .entity {
@@ -73,10 +73,10 @@
 }
 
 .keyword {
-  color: @purple;
+  color: #000080; /* idea: DEFAULT_KEYWORD */
 
   &.control {
-    color: @purple;
+    color: #000080; /* idea: DEFAULT_KEYWORD */
   }
 
   &.operator {
@@ -97,27 +97,23 @@
 }
 
 .constant {
-  color: @orange;
+  color: #000080; /* idea: DEFAULT_VALID_STRING_ESCAPE */
 
   &.character.escape {
-    color: @cyan;
   }
 
   &.numeric {
-    color: @orange;
   }
 
   &.other.color {
-    color: @cyan;
   }
 
   &.other.symbol {
-    color: @green;
   }
 }
 
 .variable {
-  color: @red;
+  color: #660e7a; /* idea: DEFAULT_INSTANCE_FIELD */
 
   &.interpolation {
     color: darken(@red, 10%);
@@ -134,7 +130,7 @@
 }
 
 .string {
-  color: @green;
+  color: #008000; /* idea: DEFAULT_STRING */
 
 
   &.regexp {
@@ -218,12 +214,16 @@
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: #000080; /* idea: DEFAULT_KEYWORD */
 
     &.id {
       color: @blue;
     }
   }
+}
+
+.property-name {
+  color: blue; /* idea: DEFAULT_ATTRIBUTE */
 }
 
 .meta {
